@@ -2,7 +2,7 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sourcepro</groupId>
-	<artifactId>sourcepro</artifactId>
+	<artifactId>stl</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -122,8 +122,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- <suiteXmlFile>Build\SignUp.xml</suiteXmlFile> -->
-<!-- 						<suiteXmlFile>${suiteXmlFiles}</suiteXmlFile> -->
-						<suiteXmlFile>Build\Temp.xml</suiteXmlFile>
+						<suiteXmlFile>${suiteXmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
 					<reportsDirectory>test-output</reportsDirectory>
 					<properties>
