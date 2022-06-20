@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sourcepro</groupId>
@@ -83,6 +85,11 @@
 			<artifactId>pdfbox</artifactId>
 			<version>2.0.25</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.20</version>
+		</dependency>
 	</dependencies>
 	<build>
 		<!-- <sourceDirectory>src</sourceDirectory> -->
@@ -121,9 +128,7 @@
 				<version>3.0.0-M7</version>
 				<configuration>
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>Build\SignUp.xml</suiteXmlFile> -->
-<!-- 						<suiteXmlFile>${suiteXmlFiles}</suiteXmlFile> -->
-						<suiteXmlFile>Build\Temp.xml</suiteXmlFile>
+						<suiteXmlFile>Build\${suiteXmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
 					<reportsDirectory>test-output</reportsDirectory>
 					<properties>
