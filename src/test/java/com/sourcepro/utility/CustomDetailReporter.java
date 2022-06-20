@@ -320,9 +320,9 @@ public class CustomDetailReporter extends CustomReporterListener {
 		try {
 			filename = getValueFromConfig("ReportConfig/report-config.properties", "FileName");
 			if (filename == null || filename.equals(" ") || filename.equals(""))
-				filename = "SA_Report";
+				filename = "SourcePro_Report";
 		} catch (Exception e) {
-			filename = "SA_Report";
+			filename = "SourcePro_Report";
 		}
 
 		return new PrintWriter(new BufferedWriter(new FileWriter(new File(outdir, filename + ".html"))));
