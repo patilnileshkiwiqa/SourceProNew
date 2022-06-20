@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="2" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Open URL : http://192.168.0.147:8074/</br>]]>
+    </line>
+    <line>
+      <![CDATA[Do login with valid email and password.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Do login with valid username and password.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered Connection String: Server=PC43\\SQLEXPRESS;Database=NH1QCCybAdmin280422;uid=sa;pwd=;Max Pool Size=1000;Connection TimeOut= 3000;</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered Email: super</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered Password: Name@642</br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Company.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Selected Company: SourcePro Infotech Pvt Ltd</br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Location.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Selected Location: CTPL Unit2</br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on right arrow icon.</br>]]>
+    </line>
+    <line>
+      <![CDATA[<Strong><b>Login_Do Loginnnnnn is passed.</b></font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on Materials menu.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on Item Master Basic Detail - Entry sub menu.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify table loaded succesfully.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Table loaded succesfully.  <Strong><font color=#32cd32><b> &#10004 Pass</b></font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on add new in Item Master Basic Detail - Entry.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Item Code.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered value is: KIWIQATlgStirn</br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Item Description.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered value is: Test item's name 123 edit</br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Item Class.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Selected value is: 100 - Manufacturing Assembly</br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Item Type.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Selected value is: Manufacturing</br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Unit Of Measurement.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Selected value is: NOS - Number</br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Linked Items and enter linked item code.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Drawing File.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify file uploaded succesfully.</br>]]>
+    </line>
+    <line>
+      <![CDATA[File uploaded succesfully.  <Strong><font color=#32cd32><b> &#10004 Pass</b></font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on Save button.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify created item succesfully.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Item created succesfully.  <Strong><font color=#32cd32><b> &#10004 Pass</b></font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[Edit created item.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Search newly created item.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on newly created item.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Enter Updated Item Description.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Entered value is: Edited</br>]]>
+    </line>
+    <line>
+      <![CDATA[Click on Save button.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Verify created item succesfully.</br>]]>
+    </line>
+    <line>
+      <![CDATA[Item updated succesfully.  <Strong><font color=#32cd32><b> &#10004 Pass</b></font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<Strong><b>Add_Item Master Basic Detail - Entry is passed.</b></font></strong></br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='../test-output/screenshots/finalScreenshot_20220620105920609.png' target='new'><img src='../test-output/screenshots/finalScreenshot_20220620105920609.png' width='200' height='100'/></a></br>]]>
+    </line>
+    <line>
+      <![CDATA[<Strong><b>Logout_Logout is failed.</b></font></strong></br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-20T10:57:04 IST" name="SourcePro" finished-at="2022-06-20T10:59:20 IST" duration-ms="136801">
+    <groups>
+    </groups>
+    <test started-at="2022-06-20T10:57:04 IST" name="Login_Do Loginnnnnn" finished-at="2022-06-20T10:57:24 IST" duration-ms="20630">
+      <class name="com.sourcepro.Login.LoginIndex">
+        <test-method is-config="true" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sourcepro.Login.LoginIndex@61f05988]" started-at="2022-06-20T10:57:04 IST" name="fetchSuiteConfiguration" finished-at="2022-06-20T10:57:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@cf984d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestContext,org.testng.ITestResult)[pri:0, instance:com.sourcepro.Login.LoginIndex@61f05988]" started-at="2022-06-20T10:57:04 IST" name="setUp" finished-at="2022-06-20T10:57:08 IST" duration-ms="4419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sourcepro.Login.LoginIndex.login() throws java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@cf984d9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginIndex.login()[pri:0, instance:com.sourcepro.Login.LoginIndex@61f05988] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:com.sourcepro.Login.LoginIndex@61f05988]" started-at="2022-06-20T10:57:08 IST" name="login" description="Do Login" finished-at="2022-06-20T10:57:24 IST" duration-ms="16178" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open URL : http://192.168.0.147:8074/</br>]]>
+            </line>
+            <line>
+              <![CDATA[Do login with valid email and password.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Do login with valid username and password.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Connection String: Server=PC43\\SQLEXPRESS;Database=NH1QCCybAdmin280422;uid=sa;pwd=;Max Pool Size=1000;Connection TimeOut= 3000;</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Email: super</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered Password: Name@642</br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Company.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Selected Company: SourcePro Infotech Pvt Ltd</br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Location.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Selected Location: CTPL Unit2</br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on right arrow icon.</br>]]>
+            </line>
+            <line>
+              <![CDATA[<Strong><b>Login_Do Loginnnnnn is passed.</b></font></strong></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:com.sourcepro.Login.LoginIndex@61f05988]" started-at="2022-06-20T10:57:24 IST" name="tearDown" finished-at="2022-06-20T10:57:24 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginIndex.login()[pri:0, instance:com.sourcepro.Login.LoginIndex@61f05988] output=Open URL : http://192.168.0.147:8074/</br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@cf984d9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sourcepro.Login.LoginIndex -->
+    </test> <!-- Login_Do Loginnnnnn -->
+    <test started-at="2022-06-20T10:57:24 IST" name="Add_Item Master Basic Detail - Entry" finished-at="2022-06-20T10:59:20 IST" duration-ms="115352">
+      <class name="com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex">
+        <test-method is-config="true" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex@44040454]" started-at="2022-06-20T10:57:24 IST" name="fetchSuiteConfiguration" finished-at="2022-06-20T10:57:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1fa98a22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestContext,org.testng.ITestResult)[pri:0, instance:com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex@44040454]" started-at="2022-06-20T10:57:24 IST" name="setUp" finished-at="2022-06-20T10:57:25 IST" duration-ms="520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex.ItemMasterBasicDetailEntryAdd() throws java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1fa98a22]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=ItemMasterBasicDetailEntryIndex.ItemMasterBasicDetailEntryAdd()[pri:0, instance:com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex@44040454] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="ItemMasterBasicDetailEntryAdd()[pri:0, instance:com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex@44040454]" started-at="2022-06-20T10:57:25 IST" name="ItemMasterBasicDetailEntryAdd" description="Item Master Basic Detail Entry Add New" finished-at="2022-06-20T10:59:20 IST" duration-ms="114830" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on Materials menu.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on Item Master Basic Detail - Entry sub menu.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify table loaded succesfully.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Table loaded succesfully.  <Strong><font color=#32cd32><b> &#10004 Pass</b></font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on add new in Item Master Basic Detail - Entry.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Item Code.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered value is: KIWIQATlgStirn</br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Item Description.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered value is: Test item's name 123 edit</br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Item Class.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Selected value is: 100 - Manufacturing Assembly</br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Item Type.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Selected value is: Manufacturing</br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Unit Of Measurement.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Selected value is: NOS - Number</br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Linked Items and enter linked item code.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Drawing File.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify file uploaded succesfully.</br>]]>
+            </line>
+            <line>
+              <![CDATA[File uploaded succesfully.  <Strong><font color=#32cd32><b> &#10004 Pass</b></font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on Save button.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify created item succesfully.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Item created succesfully.  <Strong><font color=#32cd32><b> &#10004 Pass</b></font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[Edit created item.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Search newly created item.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on newly created item.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Enter Updated Item Description.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Entered value is: Edited</br>]]>
+            </line>
+            <line>
+              <![CDATA[Click on Save button.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Verify created item succesfully.</br>]]>
+            </line>
+            <line>
+              <![CDATA[Item updated succesfully.  <Strong><font color=#32cd32><b> &#10004 Pass</b></font></strong></br>]]>
+            </line>
+            <line>
+              <![CDATA[<Strong><b>Add_Item Master Basic Detail - Entry is passed.</b></font></strong></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ItemMasterBasicDetailEntryAdd -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex@44040454]" started-at="2022-06-20T10:59:20 IST" name="tearDown" finished-at="2022-06-20T10:59:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ItemMasterBasicDetailEntryAdd status=SUCCESS method=ItemMasterBasicDetailEntryIndex.ItemMasterBasicDetailEntryAdd()[pri:0, instance:com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex@44040454] output=Click on Materials menu.</br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1fa98a22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sourcepro.Materials.ItemMasterBasicDetailEntry.ItemMasterBasicDetailEntryIndex -->
+    </test> <!-- Add_Item Master Basic Detail - Entry -->
+    <test started-at="2022-06-20T10:59:20 IST" name="Logout_Logout" finished-at="2022-06-20T10:59:20 IST" duration-ms="796">
+      <class name="com.sourcepro.Login.LoginIndex">
+        <test-method is-config="true" signature="fetchSuite(org.testng.ITestContext)[pri:0, instance:com.sourcepro.Login.LoginIndex@3724af13]" started-at="2022-06-20T10:57:01 IST" name="fetchSuite" finished-at="2022-06-20T10:57:03 IST" duration-ms="2347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@40c28b0d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuite -->
+        <test-method is-config="true" signature="fetchSuiteConfiguration(org.testng.ITestContext)[pri:0, instance:com.sourcepro.Login.LoginIndex@3724af13]" started-at="2022-06-20T10:59:20 IST" name="fetchSuiteConfiguration" finished-at="2022-06-20T10:59:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@40c28b0d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchSuiteConfiguration -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method,org.testng.ITestContext,org.testng.ITestResult)[pri:0, instance:com.sourcepro.Login.LoginIndex@3724af13]" started-at="2022-06-20T10:59:20 IST" name="setUp" finished-at="2022-06-20T10:59:20 IST" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sourcepro.Login.LoginIndex.logout() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@40c28b0d]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginIndex.logout()[pri:0, instance:com.sourcepro.Login.LoginIndex@3724af13] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logout()[pri:0, instance:com.sourcepro.Login.LoginIndex@3724af13]" started-at="2022-06-20T10:59:20 IST" name="logout" finished-at="2022-06-20T10:59:20 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Test name must not be null or empty]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Test name must not be null or empty
+at com.aventstack.extentreports.util.Assert.notEmpty(Assert.java:12)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:96)
+at com.aventstack.extentreports.ExtentTest.<init>(ExtentTest.java:117)
+at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:231)
+at com.aventstack.extentreports.ExtentReports.createTest(ExtentReports.java:245)
+at com.sourcepro.reports.ExtentReport.createTest(ExtentReport.java:37)
+at com.sourcepro.reports.ExtentReportListener.onTestStart(ExtentReportListener.java:29)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:106)
+at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:277)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:638)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='../test-output/screenshots/finalScreenshot_20220620105920609.png' target='new'><img src='../test-output/screenshots/finalScreenshot_20220620105920609.png' width='200' height='100'/></a></br>]]>
+            </line>
+            <line>
+              <![CDATA[<Strong><b>Logout_Logout is failed.</b></font></strong></br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult,org.testng.ITestContext)[pri:0, instance:com.sourcepro.Login.LoginIndex@3724af13]" started-at="2022-06-20T10:59:20 IST" name="tearDown" finished-at="2022-06-20T10:59:20 IST" duration-ms="192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=FAILURE method=LoginIndex.logout()[pri:0, instance:com.sourcepro.Login.LoginIndex@3724af13] output=<a href='../test-output/screenshots/finalScreenshot_20220620105920609.png' target='new'><img src='../test-output/screenshots/finalScreenshot_20220620105920609.png' width='200' height='100'/></a></br>]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@40c28b0d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="postConfigue()[pri:0, instance:com.sourcepro.Login.LoginIndex@3724af13]" started-at="2022-06-20T10:59:20 IST" name="postConfigue" finished-at="2022-06-20T10:59:20 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postConfigue -->
+      </class> <!-- com.sourcepro.Login.LoginIndex -->
+    </test> <!-- Logout_Logout -->
+  </suite> <!-- SourcePro -->
+</testng-results>

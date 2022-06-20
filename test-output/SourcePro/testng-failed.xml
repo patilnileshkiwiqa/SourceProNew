@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SourcePro]" guice-stage="DEVELOPMENT" verbose="10">
+  <parameter name="ExecutionByXML" value="true"/>
+  <parameter name="URL" value="http://192.168.0.147:8074/"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.sourcepro.utility.CustomDetailReporter"/>
+    <listener class-name="com.sourcepro.utility.CustomReporterBuildSummary"/>
+    <listener class-name="com.sourcepro.utility.CustomReporter"/>
+    <listener class-name="com.sourcepro.reports.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="Logout_Logout(failed)" verbose="10">
+    <classes>
+      <class name="com.sourcepro.Login.LoginIndex">
+        <methods>
+          <include name="logout"/>
+          <include name="setUp"/>
+          <include name="postConfigue"/>
+          <include name="fetchSuite"/>
+          <include name="tearDown"/>
+          <include name="fetchSuiteConfiguration"/>
+        </methods>
+      </class> <!-- com.sourcepro.Login.LoginIndex -->
+    </classes>
+  </test> <!-- Logout_Logout(failed) -->
+</suite> <!-- Failed suite [SourcePro] -->
