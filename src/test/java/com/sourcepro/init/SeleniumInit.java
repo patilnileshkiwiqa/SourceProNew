@@ -256,6 +256,7 @@ public class SeleniumInit {
 	public void tearDown(ITestResult testResult, ITestContext testContext) {
 		String screenshotName = "";
 		testName = testContext.getName();
+		
 		try {
 			Reporter.setCurrentTestResult(testResult);
 			if (!testResult.isSuccess()) {

@@ -26,13 +26,15 @@ public class ExtentReportListener extends SeleniumInit implements ITestListener,
 
 	@Override
 	public void onTestStart(ITestResult result) {
-		ExtentReport.createTest(result.getMethod().getDescription());
+//		ExtentReport.createTest(result.getMethod().getDescription()); //This will add test name from the @Test(@Description)
+		ExtentReport.createTest(result.getTestContext().getName());
+		
 	}
 
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		ExtentManager.getExtentTest().log(Status.PASS,
-				MarkupHelper.createLabel(result.getMethod().getDescription() + " is passed.", ExtentColor.GREEN));
+				MarkupHelper.createLabel(result.getTestContext().getName() + " is passed.", ExtentColor.GREEN));
 	}
 
 	@Override
@@ -40,7 +42,7 @@ public class ExtentReportListener extends SeleniumInit implements ITestListener,
 		ExtentManager.getExtentTest()
 				.fail(MediaEntityBuilder.createScreenCaptureFromBase64String(Common.getBase64Image(driver)).build());
 		ExtentManager.getExtentTest().log(Status.FAIL,
-				MarkupHelper.createLabel(result.getMethod().getDescription() + " is failed.", ExtentColor.RED));
+				MarkupHelper.createLabel(result.getTestContext().getName() + " is failed.", ExtentColor.RED));
 		Throwable exception = result.getThrowable();
 		boolean hasThrowable = exception != null;
 		if (hasThrowable) {
@@ -51,7 +53,7 @@ public class ExtentReportListener extends SeleniumInit implements ITestListener,
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		ExtentManager.getExtentTest().log(Status.SKIP,
-				MarkupHelper.createLabel(result.getMethod().getDescription() + " is skipped.", ExtentColor.YELLOW));
+				MarkupHelper.createLabel(result.getTestContext().getName() + " is skipped.", ExtentColor.YELLOW));
 		Throwable exception = result.getThrowable();
 		boolean hasThrowable = exception != null;
 		if (hasThrowable) {
