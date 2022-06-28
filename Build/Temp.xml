@@ -11,7 +11,7 @@
 	
 	<parameter name="ExecutionByXML" value="true" />
 	<parameter name="Browser" value="chrome" />
-	<parameter name="URL" value="http://192.168.0.147:8074/" />
+	<parameter name="URL" value="http://google.com" />
 
 	<test name="Login_Do Loginnnnnn">
 		<classes>
